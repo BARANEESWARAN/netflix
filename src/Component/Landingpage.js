@@ -8,7 +8,7 @@ function Landingpage() {
 	const[tapOne,setTapOne]=useState(true)
 	const[tapTwo,setTapTwo]=useState(false)
 	const[tapThree,setTapThree]=useState(false)
-	console.log(tapOne)
+	
   return (
   <>
    <header className='showcase'>
@@ -77,7 +77,7 @@ function Landingpage() {
 
 				{/* <!-- Tab Content 2 --> */}
 				<div id="tab-2-content"  className={`${tapTwo?"tab-content-item show":"tab-block"}`}>
-					<div class="tab-2-content-top">
+					<div className="tab-2-content-top">
 						<p className="text-lg">
 							Watch TV shows and movies anytime, anywhere — personalized for
 							you.
@@ -87,7 +87,7 @@ function Landingpage() {
 					<div className="tab-2-content-bottom">
 						<div>
 							<img src="https://i.ibb.co/DpdN7Gn/tab-content-2-1.png" alt="" />
-							<p class="text-md">
+							<p className="text-md">
 								Watch on your TV
 							</p>
 							<p className="text-dark">
